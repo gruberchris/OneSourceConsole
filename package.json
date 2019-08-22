@@ -1,0 +1,22 @@
+{
+  "name": "onesourceconsole",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js"
+  },
+  "author": "Chris Gruber",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "tslint": "^5.19.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "@types/node": "^12.7.2",
+    "dotenv": "^8.1.0",
+    "soap": "^0.29.0",
+    "winston": "^3.2.1"
+  }
+}
